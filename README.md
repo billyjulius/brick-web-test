@@ -12,3 +12,5 @@ You need following installed for running the test
 1. Clone this repository
 2. Run command <code>npm install</code>
 3. Run test with command <code>npm run cypress-run</code>
+
+Note: Other answer covered in `assessment_answer.txt` and `test_cases.txt` file
