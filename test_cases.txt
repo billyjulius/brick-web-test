@@ -1,0 +1,30 @@
+1. Scenario User Login Success
+    Given User visit login page
+    When User login with valid credentials
+    Then User should see display message login success
+    And User should see dashboard menu
+
+2. Scenario User Login Failed Invalid Credential
+    Given User visit login page
+    When User login with invalid credentials
+    Then User should see display error message invalid credentials
+
+3. Scenario User Registration Success
+    Given User visit register page
+    When User input valid registration data
+    Then User should see display message registration success
+
+4. Scenario User Registration Failed Alphanumeric Full Name
+    Given User visit register page
+    When User input registration data full name alphanumeric
+    Then User should see display error message full name is not alphabet
+
+5. Scenario User Registration Failed Phonenumber Length
+    Given User visit register page
+    When User input registration data phone number length 8
+    Then User should see display error message phone number length validation
+
+6. Scenario User Registration Failed Password Not Matched
+    Given User visit register page
+    When User input registration data invalid confirmation password
+    Then User should see display error message password not matched

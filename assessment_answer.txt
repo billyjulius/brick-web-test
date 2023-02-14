@@ -1,0 +1,10 @@
+1. Create test cases for the dashboard which can be accessed with the URL given
+    - Covered in file test_cases.txt
+
+2. Create an automation script using your preferred automation tools for registering an account and login
+    - Already covered in this code repository
+
+3. Find all bugs on the dashboard signup and login page
+    - Registration first name and last name still able to use numeric
+    - Minimum and maximum registration phone number length validation 
+    - Login popup message using user account name different with registered full name
